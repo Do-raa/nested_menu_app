@@ -12,7 +12,7 @@ Input validation to ensure that items are not empty\
 To run the application locally, follow these steps:\
 
 Clone this repository to your local machine:\
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/Do-raa/nested_menu_app.git)
 
 Navigate to the project directory:\
 cd nested-list-app
