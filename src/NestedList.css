@@ -1,0 +1,81 @@
+.add-to-list {
+  padding: 20px;
+  background-color: #170055;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(238, 235, 235, 0.1);
+}
+
+.input-container, .child-input-container {
+  margin: 10px;
+}
+
+.input-container button:hover {
+    cursor:pointer;
+}
+
+.list-container {
+  margin-top: 20px;
+}
+
+.item {
+  margin: 5px 0;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-align: left;
+  background-color: #F4F4F2;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.children {
+  margin-left: 20px;
+  padding-left: 10px;
+  margin-top: 15px;
+  border-left: 2px dashed #E15FED;
+}
+
+.item span {
+  cursor: pointer;
+}
+
+.item button {
+  background-color: #E15FED;
+  margin-left: 10px;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+}
+.item button:hover {
+  background-color: #f293fb;
+  cursor:pointer;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    font-size: 12px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the button */
+    left: 50%;
+    margin-left: -70px; /* Use half of the tooltip width to center it */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
